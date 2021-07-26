@@ -1,4 +1,5 @@
-.imagen {
-    height: 50px;
-    width: 150px;
+.headerImg img {
+    height: 60px;
+    padding-left: 50px;
+    padding-top: 15px;
 }

@@ -3,10 +3,10 @@ import './EnlacesHeader.css';
 
 export default function EnlacesHeader () {
     return(
-        <div>
-            <h3>Contactenos</h3>
-            <h3>Sobre Nosotros</h3>
-
+        <div className='EnlacesHeader'>
+        <span className= "headerA"><a href="#error404">Sobre Nostros</a></span>            
+        <span className= "headerA"><a href="#error404">Contáctenos</a></span>            
         </div>
     )
 }
+

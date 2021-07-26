@@ -1,5 +1,6 @@
 import './Homepage.css';
 import { GetData } from '../../utils/getData';
+import Titulo from './../../Components/Titulo/Titulo';
 
 
 export default function Homepage() {
@@ -7,7 +8,7 @@ export default function Homepage() {
     console.log(cards);
     return(
         <div>
-
+            <Titulo/>
         </div>
     )
 }

@@ -3,7 +3,9 @@ import logoPokemon from '../../Assets/img/logo pokemon.png';
 
 export default function Logo(){
     return(
-        <img className='imagen' src={logoPokemon} alt="logo">
-        </img>
+        <span class="headerImg"><a href="#home">
+            <img src={logoPokemon} alt="Logo"/>
+        </a></span>
     )
 }
+

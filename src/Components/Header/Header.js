@@ -4,7 +4,7 @@ import './Header.css'
 
 export default function Header() {
     return(
-        <header>
+        <header className='header'>
             <Logo></Logo>
             <EnlacesHeader/>
         </header>
