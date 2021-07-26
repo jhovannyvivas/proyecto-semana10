@@ -1,0 +1,42 @@
+.container-contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.form-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.form-contacto label {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-contacto input {
+    border-radius: 5px;
+}
+
+.form-politica {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    padding: 15px;
+}
+
+.comentarios-label {
+    padding: 10px;
+}
+
+.comentarios {
+    width: 70%;
+    height: 15vh;
+}
+
+.button-conectanos {
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: blue 3px 4px;
+}
