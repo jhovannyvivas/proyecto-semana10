@@ -8,9 +8,9 @@ import Homepage from './views/Homepage/Homepage';
 function App() {
   return (
     <div className="App">
-      <Contactanos />
       <Header/>
       <Homepage/>
+      <Contactanos />
     </div>
   );
 }
