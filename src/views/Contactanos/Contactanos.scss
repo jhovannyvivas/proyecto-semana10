@@ -3,17 +3,25 @@
     flex-direction: column;
     align-items: center;
     font-size: 12px;
+    background: linear-gradient(to right, #2c539e 10%, #fff547 17%, #2c539e 25%, #fff547 49%, #2c539e 80%, #fff547 86%, #2c539e 94%);
+}
+
+.container-contactanos h2 {
+    color: rgb(8, 8, 8);
+    background: rgba(246, 245, 239, 0.404);
+    border-radius: 5px;
 }
 
 .form-contacto {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 5px;
 }
 
 .form-contacto label {
-    border: 1px solid black;
+    border: 1px solid #2c539e;
     border-radius: 5px;
+    background: rgb(246, 245, 239);
 }
 
 .form-contacto input {
