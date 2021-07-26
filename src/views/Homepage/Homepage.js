@@ -1,6 +1,7 @@
 import './Homepage.css';
 import { GetData } from '../../utils/getData';
 import Titulo from './../../Components/Titulo/Titulo';
+import Cards from './../../Components/Cards/Cards';
 
 
 export default function Homepage() {
@@ -9,6 +10,8 @@ export default function Homepage() {
     return(
         <div>
             <Titulo/>
+            <Cards/>
+
         </div>
     )
 }
