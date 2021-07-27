@@ -10,6 +10,7 @@
     color: rgb(8, 8, 8);
     background: rgba(246, 245, 239, 0.404);
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .form-contacto {
@@ -36,11 +37,18 @@
 
 .comentarios-label {
     padding: 10px;
+    background: #2c539e;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin: 15px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .comentarios {
     width: 70%;
     height: 15vh;
+    border-radius: 15px;
 }
 
 .button-conectanos {
