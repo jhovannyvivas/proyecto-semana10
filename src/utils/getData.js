@@ -10,7 +10,6 @@ export function GetData() {
       .then((data1) => {
         setCards(data1.data);
       });
-      console.log(cards);
   }, []);
 
   return cards;
