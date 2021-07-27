@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Components/Header/Header';
 import Homepage from './views/Homepage/Homepage';
+import Contactanos from './views/Contactanos/Index'
 import Titulo from './Components/Titulo/Titulo';
 import Footer from './Components/Footer/Footer';
 import {  BrowserRouter as Router,
@@ -19,7 +20,7 @@ function App() {
                 <div>Detalle de la tarjeta</div>
               </Route>
               <Route path="/contact">
-                <div>Contactenos</div>
+                <div> <Contactanos /></div>
               </Route>
               <Route path="/aboutus">
                 <div>Sección sobre nosotros</div>
