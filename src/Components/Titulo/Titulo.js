@@ -1,10 +1,20 @@
 import './Titulo.css';
-import titulo from '../../Assets/img/titulo.png'
+import titulo from '../../Assets/img/logo pokemon.png'
+import { Link } from 'react-router-dom';
 
 
 export default function Titulo() {
     return(
-        <img className='titulo' src={titulo} alt="Tittle">
-        </img>
+        <div className='titulo'>
+
+            
+            <div>
+            <Link to='/'><img src={titulo} alt='titulo'></img></Link>
+            </div>
+
+        </div>
+        
     )
 }
+//<div  className='pokemon'>Contacto</div>
+//<div className='pokemon'>Contacto</div>
