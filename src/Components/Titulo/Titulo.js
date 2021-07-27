@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 
 export default function Titulo() {
     return(
-        <div className='titulo' id='titulo'>
+        <div className='titulo'>
 
             
             <div>
-            <Link to='/'><img src={titulo}></img></Link>
+            <Link to='/'><img src={titulo} alt='titulo'></img></Link>
             </div>
 
         </div>

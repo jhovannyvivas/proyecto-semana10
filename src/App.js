@@ -5,8 +5,7 @@ import Titulo from './Components/Titulo/Titulo';
 import Footer from './Components/Footer/Footer';
 import {  BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
