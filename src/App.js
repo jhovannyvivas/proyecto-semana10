@@ -3,14 +3,37 @@ import Header from './Components/Header/Header';
 import Homepage from './views/Homepage/Homepage';
 import Titulo from './Components/Titulo/Titulo';
 import Footer from './Components/Footer/Footer';
+import {  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
     <main className="App">
-      <Header/>
-      <Titulo/>
-      <Homepage/>
-      <Footer/>
+      <Router>
+        <Header contact="Contáctenos" />
+        <Titulo/>
+          <Switch>
+              <Route path="/cardDetail/:id">
+                <div>Detalle de la tarjeta</div>
+              </Route>
+              <Route path="/contact">
+                <div>Contactenos</div>
+              </Route>
+              <Route path="/aboutus">
+                <div>Sección sobre nosotros</div>
+              </Route>
+              <Route path="/">
+                <Homepage />
+              </Route>
+          </Switch>
+          <Footer/>
+      </Router>
+
+
+
     </main>
   );
 }

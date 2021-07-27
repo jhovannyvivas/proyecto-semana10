@@ -10,5 +10,9 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+//let Titulo = document.getElementById('titulo');
+/*document.getElementById('card').addEventListener('mouseenter', function(){
+  Titulo.style.display= "none";
+})*/
 
 
