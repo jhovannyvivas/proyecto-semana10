@@ -1,3 +1,24 @@
 .titulo {
-    width: 300px;
+    display: flex;
+    justify-content: center;
+
+    padding: 80px 30px;
+    background: rgb(3, 3, 59);
 }
+
+.titulo div img {
+    align-self: center;
+    width: 300px;
+    padding: 80px 30px;
+}
+
+.titulo div img:hover {
+
+    transform: scale(140%,140%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
