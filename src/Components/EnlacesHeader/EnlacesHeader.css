@@ -1,11 +1,14 @@
-.headerA a {
+.headerA {
     display: flex;
     padding-right: 50px;
     font-size: 1.5rem;
     color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
 }
 
 .EnlacesHeader {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }

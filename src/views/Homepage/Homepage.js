@@ -8,8 +8,7 @@ export default function Homepage() {
     let cards = GetData();
     console.log(cards);
     return(
-        <div>
-            <Titulo/>
+        <div className='homepage'>
             <Cards/>
 
         </div>
