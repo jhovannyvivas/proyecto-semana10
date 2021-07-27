@@ -4,11 +4,11 @@ import Titulo from './../../Components/Titulo/Titulo';
 
 
 export default function Homepage() {
-    let cards = GetData();
-    console.log(cards);
+     let cards = GetData();
+     console.log(cards);
     return(
         <div>
-            <Titulo/>
+            { <Titulo/>  }
         </div>
     )
 }
