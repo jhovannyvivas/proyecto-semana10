@@ -1,15 +1,17 @@
 import './Logo.css';
 import logoPokemon from '../../Assets/img/titulo3.png';
-import Funcion1 from './funcion1/Funcion1';
+import Imagen from './Imagen/Imagen';
 
 export default function Logo(){
-    let cast = 'castidad'
-    return(
-        <span className="headerImg" onMouseEnter={()=> alert('')}>
 
-            <Funcion1 pureza={cast?}/>
+
+
+    return(
+        <span className="headerImg" onMouseEnter={(e)=> console.log(e.target.innerText='árbol')} onMouseLeave={(ev) => ev.target.innerText="ssss"}>
+
+            <Imagen/>
         </span>
     )
 }
 
-//<img src={logoPokemon}  alt="Logo"/>
+//
