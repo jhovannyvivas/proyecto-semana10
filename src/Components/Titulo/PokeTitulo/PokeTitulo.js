@@ -13,8 +13,8 @@ export function PokeTitulo() {
             <Link to='/'><img src={squartol}></img></Link>
         </div>
 
-        <div>
-            <Link to='/'><img src={titulo} alt='titulo'></img></Link>
+        <div className='TituloPo'>
+            <Link to='/'><img  src={titulo} alt='titulo'></img></Link>
         </div>
         
         <div className='SinPokemon'>
