@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Homepage from './views/Homepage/Homepage';
 import Contactanos from './views/Contactanos/Index'
+import Detalles from './views/Card-detail';
 import Titulo from './Components/Titulo/Titulo';
 import Footer from './Components/Footer/Footer';
 import {  BrowserRouter as Router,
@@ -17,7 +18,7 @@ function App() {
         <Titulo/>
           <Switch>
               <Route path="/cardDetail/:id">
-                <div>Detalle de la tarjeta</div>
+                <Detalles/>
               </Route>
               <Route path="/contact">
                 <div> <Contactanos /></div>
