@@ -4,7 +4,7 @@ import img from "../AboutUs/icon-linkedin.png";
 
 import "./AboutUs.css";
 
- const container = () =>{
+ const Container = () =>{
     return(
         <div className="container">
         <div className ="text-1">   
@@ -60,4 +60,4 @@ import "./AboutUs.css";
     </div>
     )
 };
-export default container;
+export default Container;
