@@ -3,9 +3,15 @@ import { GetData } from '../../utils/getData';
 import Card from '../../Components/Card/Card';
 
 import React from 'react';
+import getID from './../../utils/getID';
 
 export default function Detalles() {
+    let a = getID(window);
+    
+    //  a[2] es el id 
+
     let Detalles = GetData();
+
 
     return(<div className= "container-detalles">
             
