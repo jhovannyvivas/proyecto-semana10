@@ -7,7 +7,9 @@ import getID from './../../utils/getID';
 
 export default function Detalles() {
     let a = getID(window);
-    console.log(a);
+    
+    //  a[2] es el id 
+
     let Detalles = GetData();
 
 
