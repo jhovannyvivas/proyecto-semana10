@@ -5,10 +5,12 @@ import Contactanos from './views/Contactanos/Index'
 import Detalles from './views/Card-detail';
 import Titulo from './Components/Titulo/Titulo';
 import Footer from './Components/Footer/Footer';
+import Container from './Pages/AboutUs';
 import {  BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
+
 
 function App() {
   return (
@@ -24,7 +26,7 @@ function App() {
                 <div> <Contactanos /></div>
               </Route>
               <Route path="/aboutus">
-                <div>Sección sobre nosotros</div>
+                <div> <Container /></div>
               </Route>
               <Route path="/">
                 <Homepage />
