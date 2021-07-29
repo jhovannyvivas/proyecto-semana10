@@ -1,6 +1,6 @@
 import  React from 'react' ; 
 import Collapsible from 'react-collapsible';
-import img from "../AboutUs/icon-linkedin.png";
+import img from "../AboutUs/linkedin-brands.svg";
 
 import "./AboutUs.css";
 
@@ -25,29 +25,30 @@ import "./AboutUs.css";
           <div className= "developers">
           <Collapsible className="developer"trigger="William Rodriguez">
       
-           <p>fuerte en maquetacion, react, sass y en las blandas en el trabajo de equipo.
-               si quieres saber mas sobre mi sigueme aqui <a href="https://www.linkedin.com/in/william-rodriguez-39b512b6/"><img src={img} widht="40px" height="40px" alt="icono linkedin" /></a>
+           <p>fuerte en maquetacion, react, sass y en las blandas en el trabajo de equipo.<br/>
+               si quieres saber mas sobre mi sigueme aqui <a href="https://www.linkedin.com/in/william-rodriguez-39b512b6/"><img src={img}  alt="icono linkedin" /></a>
            </p>
           </Collapsible>
           
           <Collapsible className="developer"trigger="Jhovanny Vivas">
       
-           <p>fuerte en maquetacion, react, sass y en las blandas en el trabajo de equipo.
-               si quieres saber mas sobre mi sigueme aqui <a href="https://www.linkedin.com/in/jhovannyvivas"><img src={img} widht="40px" height="40px" alt="icono linkedin" /></a>
+           <p>fuerte en maquetacion, react, sass y en las blandas en el trabajo de equipo.<br/>
+               si quieres saber mas sobre mi sigueme aqui <a href="https://www.linkedin.com/in/jhovannyvivas"><img src={img}  alt="icono linkedin" /></a>
            </p>
           </Collapsible>
 
           <Collapsible className="developer"trigger="Santiago Jimenez">
       
-           <p>fuerte en maquetacion, react, sass y en las blandas en el trabajo de equipo.
-               si quieres saber mas sobre mi sigueme aqui <a href="https://www.linkedin.com/in/santiago-jimenez-4852a0217/"><img src={img} widht="40px" height="40px" alt="icono linkedin" /></a>
+           <p>fuerte en maquetacion, react, sass y en las blandas en el trabajo de equipo.<br/>
+               si quieres saber mas sobre mi sigueme aqui <a href="https://www.linkedin.com/in/santiago-jimenez-4852a0217/"><img src={img}  alt="icono linkedin" /></a>
            </p>
           </Collapsible>
 
           <Collapsible className="developer"trigger="Jesus cervantes">
       
-           <p>fuerte en maquetacion, react, sass y en las blandas en el trabajo de equipo.
-               si quieres saber mas sobre mi sigueme aqui <a href="https://www.linkedin.com/in/jesus-cervantes-a10775213/"><img src={img} widht="40px" height="40px" alt="icono linkedin" /></a>
+           <p> Poseo fortalezas en react, css,html y javascript. <br/>
+               tengo una gran capacidad de acoplarme a las situaciones que se presenten,compañerismo y liderazgo.<br/>
+               si quieres saber mas sobre mi sigueme aqui <a href="https://www.linkedin.com/in/jesus-cervantes-a10775213/"><img src={img}  alt="icono linkedin" /></a>
            </p>
           </Collapsible>
 
