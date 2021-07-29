@@ -8,22 +8,15 @@
     background: rgb(3, 3, 59);
 }
 
-.titulo div img {
+.titulo div a img {
     align-self: center;
-    width: 300px;
+    width: 500px;
     padding: 5px 5px;
 }
 
-.titulo div img:hover {
-
-    transform: scale(130%,130%);
-    display: inline;
-    justify-content: center;
-    align-items: center;
+.titulo div a img:hover {
     padding: 0;
-    width: 300px;
-    height: fit-content;
-
+    width: 600px; 
 }
 
 .SinPokemon {
@@ -34,12 +27,22 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100px;
-    padding: 0 50px;
+    height: 200px;
+    padding: 0;
 
 }
 
-.Pokemon img {
+.Pokemon a img {
     height: 180px;
+}
+
+.Pokemon a img:hover {
+    height: 600px;
+    width: 200px;
+}
+
+.TituloPo a img {
+    width: 500px;
+
 }
 

@@ -11,6 +11,7 @@ export function GetData() {
         setCards(data1.data);
       });
   }, []);
-
-  return cards;
+  console.log(cards);
+  const cardsFinal = cards.slice(0, 30);
+  return cardsFinal;
 }

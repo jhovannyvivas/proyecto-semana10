@@ -7,7 +7,7 @@ export default function Logo(){
 
 
     return(
-        <span className="headerImg" onMouseEnter={(e)=> console.log(e.target.innerText='árbol')} onMouseLeave={(ev) => ev.target.innerText="ssss"}>
+        <span className="headerImg">
 
             <Imagen/>
         </span>

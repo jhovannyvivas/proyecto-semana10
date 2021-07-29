@@ -5,4 +5,10 @@
     padding-top: 15px;
     padding-bottom: 20px;
     display: block;
+    opacity: 0.3;
+}
+
+
+.logo:hover {
+    opacity: 1;
 }
