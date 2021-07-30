@@ -1,6 +1,5 @@
 import './Card-detail.scss';
 import {GetData} from '../../utils/getData';
-import Detail from '../../Components/Card/details/Detail';
 import React from 'react';
 import getID from './../../utils/getID';
 
@@ -33,8 +32,13 @@ export default function Detalles() {
             <h2>Estas son las estadisticas de tu pokémon!</h2>
 
             <div className="card-container">
-
+                <img src={af.images.small} alt={af.name} />
                 <h1>{af.name}</h1>
+                <p>hp: {af.hp}</p>
+                <p>level: {af.level}</p>
+                <p>tipo: {af.types}</p>
+                <p>evoluciona de: {af.evolvesFrom}</p>
+               
 
             </div>
 
