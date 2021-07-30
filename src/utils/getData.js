@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 let API = 'https://api.pokemontcg.io/v2/cards';
 
-export function GetData() {
+export const GetData = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -11,7 +11,6 @@ export function GetData() {
         setCards(data1.data);
       });
   }, []);
-  console.log(cards);
   const cardsFinal = cards.slice(0, 30);
   return cardsFinal;
 }

@@ -22,8 +22,13 @@ export default function Detalles() {
             }
         }
     }
-
+    let img = '';
     console.log(af);
+    if(af.hasOwnProperty('images')){
+        console.log('llego')
+        img = af.images.small;
+        console.log(img);
+    }
 
 
     return(<div className= "container-detalles">
@@ -32,7 +37,7 @@ export default function Detalles() {
             <h2>Estas son las estadisticas de tu pokémon!</h2>
 
             <div className="card-container">
-                <img src={af.images.small} alt={af.name} />
+                <img src={img} alt={af.name} />
                 <h1>{af.name}</h1>
                 <p>hp: {af.hp}</p>
                 <p>level: {af.level}</p>
