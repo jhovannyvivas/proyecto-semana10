@@ -11,11 +11,11 @@ export default function Detalles() {
     //  a es el id 
     console.log(a)
     let cards = GetData();
-  
+    var af = [];
     console.log(cards)
     if(cards.length>0){
         for(var i = 0; i < 29; i ++){
-            var af = [];
+   
             if (cards[i].id === a){
                 af = cards[i];
                 console.log("arreglo ");
@@ -23,6 +23,8 @@ export default function Detalles() {
             }
         }
     }
+
+    console.log(af);
 
 
     return(<div className= "container-detalles">
