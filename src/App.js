@@ -5,11 +5,8 @@ import Contactanos from './views/Contactanos/Index'
 import Detalles from './views/Card-detail';
 import Titulo from './Components/Titulo/Titulo';
 import Footer from './Components/Footer/Footer';
-import {  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-
+import Container from '../src/Pages/AboutUs/index';
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 function App() {
   return (
     <main className="App">
@@ -23,8 +20,8 @@ function App() {
               <Route path="/contact">
                 <div> <Contactanos /></div>
               </Route>
-              <Route path="/aboutus">
-                <div>Sección sobre nosotros</div>
+              <Route path="/aboutUs">
+                <div><Container/></div>
               </Route>
               <Route path="/">
                 <Homepage />
