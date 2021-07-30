@@ -3,7 +3,7 @@ import Header from './Components/Header/Header';
 import Homepage from './views/Homepage/Homepage';
 import Titulo from './Components/Titulo/Titulo';
 import Footer from './Components/Footer/Footer';
-import aboutUs from './Pages/AboutUs/index';
+import Container from '../src/Pages/AboutUs/index';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
                 <div>Contactenos</div>
               </Route>
               <Route path="/aboutUs">
-                <aboutUs/>
+                <div><Container/></div>
               </Route>
               <Route path="/">
                 <Homepage />
