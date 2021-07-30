@@ -34,7 +34,7 @@ export default function Detalles() {
 
             <div className="card-container">
 
-            {cards.map((card1) => <Detail key={card1.id} pId={card1}/> )}
+                <h1>{af.name}</h1>
 
             </div>
 
@@ -49,5 +49,5 @@ export default function Detalles() {
     
 }
 /*
-
+{cards.map((card1) => <Detail key={card1.id} pId={card1}/> )}
 */
