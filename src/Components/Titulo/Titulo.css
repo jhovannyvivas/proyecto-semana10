@@ -1,0 +1,48 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 300px;
+    padding: 170px 30px;
+    background: rgb(3, 3, 59);
+}
+
+.titulo div a img {
+    align-self: center;
+    width: 500px;
+    padding: 5px 5px;
+}
+
+.titulo div a img:hover {
+    padding: 0;
+    width: 600px; 
+}
+
+.SinPokemon {
+    display: none;
+}
+
+.Pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    padding: 0;
+
+}
+
+.Pokemon a img {
+    height: 180px;
+}
+
+.Pokemon a img:hover {
+    height: 600px;
+    width: 200px;
+}
+
+.TituloPo a img {
+    width: 500px;
+
+}
+
