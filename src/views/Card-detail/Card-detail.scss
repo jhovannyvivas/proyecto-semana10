@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.container-detalles {
+    background-color: #03033b;
+    color: white;
+      font-family: 'Oswald', sans-serif;
+   h2 {
+  
+    font-size: 30px;
+    padding-bottom: 40px;
+    margin-top: -40;
+    } 
+    
+ 
+}
+.card-container {
+    height: 1000px;
+    width: 300px;
+    margin: auto;
+}
+
+.name-container {
+        font-size: 20px;
+    }
+.stats-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    max-width: 500px;
+}
