@@ -1,24 +1,27 @@
 .container{
-    margin: 20px;
+    margin: 30px;
     gap: 30px;
     display: flex;
     flex-direction: column;
     font-family:'verdana', sans-serif;
-
- 
 }
 
-.title-1 , .title-2, .developer{
+.title-1 , .title-2, .developer {
     font-size: 24px;
     color:black;
     cursor: pointer;
+    transition: 3s;
+    box-shadow: 0px 10px 10px 1px black; 
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .developers{
-    gap: 20px;
+    gap: 30px;
     display: flex;
-   
     flex-direction: column;
+    margin-bottom: 50px;
 
 }
 
