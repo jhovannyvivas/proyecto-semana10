@@ -10,7 +10,7 @@ export function PokeTitulo() {
 
         
         <div className='SinPokemon'>
-            <Link to='/'><img src={squartol}></img></Link>
+            <Link to='/'><img src={squartol} alt='pokemon'></img></Link>
         </div>
 
         <div className='TituloPo'>
@@ -18,7 +18,7 @@ export function PokeTitulo() {
         </div>
         
         <div className='SinPokemon'>
-            <Link to='/'><img src={pikachu}></img></Link>
+            <Link to='/'><img src={pikachu} alt='pokemon'></img></Link>
         </div>
         
 
