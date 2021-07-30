@@ -1,6 +1,6 @@
 import './Card-detail.scss';
 import { GetData } from '../../utils/getData';
-import Card from '../../Components/Card/Card';
+import Detail from '../../Components/Card/details/Detail';
 
 import React from 'react';
 import getID from './../../utils/getID';
@@ -10,7 +10,7 @@ export default function Detalles() {
     
     //  a[2] es el id 
 
-    let Detalles = GetData();
+    let cards = GetData();
 
 
     return(<div className= "container-detalles">
@@ -20,20 +20,11 @@ export default function Detalles() {
 
             <div className="card-container">
 
-            </div>
-            
-            <div className="name-container">
-                <p>*el nombre de tu Pokémon*</p>
-            </div>
-            
-            <div className="card-container">
-             
+            {cards.map((card1) => <Detail key={card1.id} pId={card1}/> )}
+
             </div>
 
-            <div className="stats-container">
-                <div><p>*tipo del pokémon*</p></div>
-                <div><p>*vida del pokémon*</p></div>
-            </div>
+  
 
 
 
